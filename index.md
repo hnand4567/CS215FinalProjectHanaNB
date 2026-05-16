@@ -89,14 +89,13 @@ K-Means clustering was applied to group songs based on similarities in their aud
 
 ![K-Means Clustering](assets/images/KMeansCluster.png)
 
+
 Visualization 6: PCA + K-Means Clustering (Reduced Feature Space)
 
 To better visualize the clustering structure, PCA was used to reduce the audio features into two dimensions. K-Means clustering was then applied to this reduced space, allowing for clearer visualization of natural groupings in the dataset. This representation highlights how songs cluster based on overall similarity in musical characteristics.
 
-(add your image here)
-<!--commented for now, will be uncommented soon 
 ![PCA KMeans Clustering](assets/images/PCA_KMeans.png)
--->
+
 
 
 ---
