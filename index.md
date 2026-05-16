@@ -105,18 +105,28 @@ To better visualize the clustering structure, Principal Component Analysis (PCA)
 ---
 
 ## Tools Used
+
+This project was completed using Python and a set of data science and visualization libraries in Google Colab:
+
 - Python (Pandas, NumPy)
-- Matplotlib & Seaborn
-- Scikit-learn (K-Means clustering)
-- CS215 Course Materials/Activities
-- Datacamp
-- Google Gemini (Within Google Colab)
-- Google Gemini (Outside Google Colab)
-- ChatGPT
+- Data visualization (Matplotlib, Seaborn)
+- Machine learning (Scikit-learn for K-Means clustering and PCA)
+- Google Colab for analysis and experimentation
+- GitHub Pages (Jekyll) for website deployment
+
+Additional resources and support:
+- CS 215 course materials and assignments
+- DataCamp modules for structured learning
+- AI tools (Google Gemini and ChatGPT) for debugging and conceptual support
 
 ---
 
-## Files
+## Project Files
+All analysis was completed in a Google Colab notebook, with supporting files stored in the GitHub repository:
+- Notebook containing full analysis and code
+- Dataset used for analysis
+- Images used for visualizations on this page
+
 (edit me)
 <!-- will finish this and edit it
 - `notebook.ipynb` — full analysis
