@@ -5,6 +5,8 @@
 
 Music streaming platforms like Spotify assign numerical “audio features” to every song, such as how energetic, danceable, or acoustic a track is. These features allow us to analyze music quantitatively. This project uses Spotify audio feature data to understand patterns behind song popularity and to explore whether certain musical characteristics are associated with more popular songs. Understanding what makes music popular has implications for artists, recommendation systems, and how listeners discover new songs. By analyzing audio features at scale, we can move beyond subjective impressions of music and examine patterns that emerge across large datasets.
 
+While Spotify represents music using numerical features, listeners experience music in a much more emotional and subjective way. This project explores the gap between those two perspectives by asking whether measurable properties of songs can explain something as complex as popularity. In doing so, it treats music not just as data, but as a reflection of broader listening behavior and cultural taste.
+
 ---
 ## Dataset
 
