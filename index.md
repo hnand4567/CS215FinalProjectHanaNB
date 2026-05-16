@@ -75,6 +75,15 @@ Overall, the results suggest that musical popularity is shaped more by combinati
 
 ---
 
+##Human Interpretation of the Results
+From a human perspective, these findings suggest that how we enjoy music is not something that can be reduced to simple numerical rules. People do not choose songs based only on measurable properties like tempo or energy. Instead, music preference is influenced by a combination of emotional tone, cultural context, artist identity, and personal experience, factors that are not fully captured in this dataset.
+
+This helps explain why no single audio feature strongly predicts popularity. A song might become popular because of timing, trends, or emotional resonance rather than just its acoustic properties. In this sense, the data reflects that music is inherently complex and subjective, even when analyzed through quantitative features.
+
+The clustering results reinforce this idea by showing that songs naturally group into broad stylistic categories rather than strict “popular vs unpopular” divisions.
+
+---
+
 ## Key Visualizations
 
 This project uses multiple visualizations to explore relationships between Spotify audio features and song popularity.
@@ -115,7 +124,11 @@ To better visualize the clustering structure, Principal Component Analysis (PCA)
 
 ![PCA KMeans Clustering](assets/images/PCA_KMeans.png)
 
+The combination of PCA and K-Means clustering was especially useful because it allowed high-dimensional musical data to be represented in a simpler two-dimensional space. This made the clustering structure easier to interpret visually.
 
+Instead of analyzing five separate audio features independently, PCA compresses them into two principal components that capture the most important variation in the dataset. This helps reveal patterns that are not immediately obvious in the original feature space, especially when features are correlated.
+
+In this way, PCA did not change the data itself but provided a clearer lens for understanding how songs relate to one another.
 
 ---
 
@@ -150,4 +163,8 @@ This project showed that music data is highly multi-dimensional, and simple assu
 ---
 
 ## Future Work
-In future iterations of this project, I would like to expand the analysis by incorporating geospatial data to explore how music preferences vary across different countries and regions. For example, it would be interesting to examine whether certain audio features or genres are more popular in specific parts of the world and how global listening patterns differ. Additionally, I would like to further explore more advanced clustering and dimensionality reduction techniques to better understand structure in large-scale music datasets. This could help uncover deeper patterns in how musical taste varies across different populations and contexts.
+In future iterations of this project, I would like to expand the analysis by incorporating geospatial data to explore how music preferences vary across different countries and regions. This would allow for comparison of global listening trends, such as whether certain genres or audio characteristics are more common in specific parts of the world.
+
+Additionally, I would like to explore how musical preferences change over time by incorporating temporal data, which could reveal trends in how genres rise and fall in popularity.
+
+Finally, I would be interested in experimenting with more advanced clustering and dimensionality reduction techniques to further understand structure in large-scale music datasets. This could help uncover deeper and more nuanced patterns in how musical taste varies across different populations and contexts.
