@@ -42,8 +42,8 @@ The following data analysis techniques were used:
 
 ---
 
-## New Technique: K-Means Clustering + PCA
-K-Means clustering, an unsupervised machine learning method, was used to group songs based on similarities in their audio features, including danceability, energy, valence, tempo, and acousticness. This technique helped reveal natural groupings of songs with similar musical characteristics, allowing for a better understanding of how different styles of music relate to one another within the dataset. To better interpret the structure of the data, Principal Component Analysis (PCA) was also used to reduce the dimensionality of the audio features. PCA helped simplify the dataset while preserving the most important variation, making it easier to visualize patterns and clusters in lower-dimensional space.
+## New Techniques: K-Means Clustering + Principal Component Analysis (PCA)
+K-Means clustering, an unsupervised machine learning method, was used to group songs based on similarities in their audio features, including danceability, energy, valence, tempo, and acousticness. This technique helped reveal natural groupings of songs with similar musical characteristics, allowing for a better understanding of how different styles of music relate to one another within the dataset. To further improve interpretation, Principal Component Analysis (PCA) was applied to reduce the dimensionality of the audio feature space. PCA preserved the most important variation in the dataset while allowing for clearer visualization of clustering structure in two dimensions. Together, PCA and K-Means clustering made it possible to both identify and visualize meaningful patterns in the data.
 
 ---
 
@@ -84,10 +84,19 @@ A bar chart compares average danceability across different genres. This reveals 
 ![Genre vs Danceability](assets/images/barchart.png)
 
 
-Visualization 5: K-Means Clustering of Songs
-K-Means clustering, an unsupervised machine learning method, was used to group songs based on similarities in their audio features. This visualization reveals natural clusters of songs with similar musical characteristics, helping uncover structure in the dataset without predefined labels.
+Visualization 5: K-Means Clustering 
+K-Means clustering was applied to group songs based on similarities in their audio features. This visualization shows clusters using the original feature space, highlighting relationships between variables such as danceability, energy, and tempo.
 
 ![K-Means Clustering](assets/images/KMeansCluster.png)
+
+Visualization 6: PCA + K-Means Clustering (Reduced Feature Space)
+
+To better visualize the clustering structure, PCA was used to reduce the audio features into two dimensions. K-Means clustering was then applied to this reduced space, allowing for clearer visualization of natural groupings in the dataset. This representation highlights how songs cluster based on overall similarity in musical characteristics.
+
+(add your image here)
+<!--commented for now, will be uncommented soon 
+![PCA KMeans Clustering](assets/images/PCA_KMeans.png)
+-->
 
 
 ---
