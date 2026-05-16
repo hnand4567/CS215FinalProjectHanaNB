@@ -66,21 +66,19 @@ A correlation heatmap was used to examine relationships between all numerical Sp
 ![Audio Feature Correlation Heatmap](assets/images/heatmap.png)
 
 
-Visualization 2: Popularity vs Danceability
+Visualization 2: Popularity vs Danceability Scatterplot
 A scatterplot was used to examine whether more danceable songs tend to be more popular. This visualization shows a weak positive relationship, but with significant variation, suggesting that danceability alone does not strongly determine popularity.
 
-(edit me, insert the image of the scatterplot)
-<!-- commenting this out for now, will fix later
-![Popularity vs Danceability](assets/correlation_heatmap.png)-->
+![Popularity vs Danceability Scatterplot](assets/images/popularityDanceability.png)-->
 
 
-Visualization 3: Energy vs Popularity (Optional)
+Visualization 3: Energy vs Popularity Scatterplot (Optional)
 A second scatterplot explores the relationship between energy and song popularity. The results show a similarly weak relationship, reinforcing the idea that popularity is influenced by multiple factors rather than a single feature.
 
 ![Energy vs Popularity Scatterplot](assets/images/popularityEnergyScatterplot.png)
 
 
-Visualization 4: Genre Comparison (Average Danceability)
+Visualization 4: Genre Comparison Bar Chart (Average Danceability)
 A bar chart compares average danceability across different genres. This reveals clear stylistic differences between genres, with some genres consistently producing more danceable music than others.
 
 ![Genre vs Danceability](assets/images/barchart.png)
@@ -98,6 +96,11 @@ K-Means clustering, an unsupervised machine learning method, was used to group s
 - Python (Pandas, NumPy)
 - Matplotlib & Seaborn
 - Scikit-learn (K-Means clustering)
+- CS215 Course Materials/Activities
+- Datacamp
+- Google Gemini (Within Google Colab)
+- Google Gemini (Outside Google Colab)
+- ChatGPT
 
 ---
 
