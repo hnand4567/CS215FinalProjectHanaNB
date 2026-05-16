@@ -1,4 +1,4 @@
-# Spotify Audio Features & Song Popularity Analysis - Hana Nandawula-Bunnya
+# Spotify Audio Features & Song Popularity Analysis - CS215 Final Project
 
 ## Project Overview
 
