@@ -8,10 +8,10 @@ The project uses Python in a Google Colab notebook along with machine learning t
 ---
 
 ## Repository Contents
-- `CS215SP26FinalHanaNandawulaBunnya.ipynb` → Full data analysis and visualizations
-- `spotify-tracks-dataset.csv` → Dataset used for analysis (or processed dataset)
-- `index.md` → Website content for GitHub Pages
-- `assets/` → Images used in the project website
+- `CS215SP26FinalHanaNandawulaBunnya.ipynb` -> Full data analysis and visualizations
+- `spotify-tracks-dataset.csv` -> Dataset used for analysis (or processed dataset)
+- `index.md` -> Website content for GitHub Pages
+- `assets/` -> Images used in the project website
 
 ---
 
