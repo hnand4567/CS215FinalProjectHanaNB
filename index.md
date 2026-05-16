@@ -2,7 +2,8 @@
 # Spotify Audio Features & Song Popularity Analysis
 
 ## Project Overview
-This project uses Spotify audio feature data to understand patterns behind song popularity.
+
+Music streaming platforms like Spotify assign numerical “audio features” to every song, such as how energetic, danceable, or acoustic a track is. These features allow us to analyze music quantitatively. This project uses Spotify audio feature data to understand patterns behind song popularity and to explore whether certain musical characteristics are associated with more popular songs.
 
 ---
 ## Dataset
@@ -42,6 +43,18 @@ The following data analysis techniques were used:
 
 ---
 
+## Process Overview
+
+This project began by selecting a large Spotify dataset containing audio features for over 100,000 songs. The first step was cleaning and preparing the data by removing unnecessary columns and handling missing values.
+
+Next, exploratory data analysis was conducted using correlation analysis and visualizations to understand relationships between audio features and song popularity.
+
+After this, I applied K-Means clustering to group songs based on similarity in their musical features. To make these clusters easier to interpret visually, I used Principal Component Analysis (PCA) to reduce the dataset into two dimensions.
+
+Finally, the results were visualized and interpreted to understand patterns in music style and popularity.
+
+---
+
 ## New Techniques: K-Means Clustering + Principal Component Analysis (PCA)
 K-Means clustering, an unsupervised machine learning method, was used to group songs based on similarities in their audio features, including danceability, energy, valence, tempo, and acousticness. This technique helped reveal natural groupings of songs with similar musical characteristics, allowing for a better understanding of how different styles of music relate to one another within the dataset. 
 
@@ -60,7 +73,6 @@ By combining PCA with K-Means clustering, the resulting visualization shows not 
 ---
 
 ## Key Visualizations
-
 
 This project uses multiple visualizations to explore relationships between Spotify audio features and song popularity.
 
@@ -96,7 +108,7 @@ K-Means clustering was applied to group songs based on similarities in their aud
 
 Visualization 6: PCA + K-Means Clustering (Reduced Feature Space)
 
-To better visualize the clustering structure, Principal Component Analysis (PCA) was used to reduce the high-dimensional audio feature space into two components. K-Means clustering was then applied to this reduced space. K-Means clustering was then applied to this reduced space, allowing for clearer visualization of natural groupings in the dataset. This representation highlights how songs cluster based on overall similarity in musical characteristics.
+To better visualize the clustering structure, Principal Component Analysis (PCA) was used to reduce the high-dimensional audio feature space into two components. K-Means clustering was then applied to this reduced space, allowing for clearer visualization of natural groupings in the dataset. This representation highlights how songs cluster based on overall similarity in musical characteristics.
 
 ![PCA KMeans Clustering](assets/images/PCA_KMeans.png)
 
@@ -106,7 +118,7 @@ To better visualize the clustering structure, Principal Component Analysis (PCA)
 
 ## Tools Used
 
-This project was completed using Python and a set of data science and visualization libraries in Google Colab:
+This project was completed in Google Colab using Python and data science libraries:
 
 - Python (Pandas, NumPy)
 - Data visualization (Matplotlib, Seaborn)
@@ -116,8 +128,8 @@ This project was completed using Python and a set of data science and visualizat
 
 Additional resources and support:
 - CS 215 course materials and assignments
-- DataCamp modules for structured learning
-- AI tools (Google Gemini and ChatGPT) for debugging and conceptual support
+- DataCamp modules 
+- AI tools (Google Gemini, ChatGPT) for debugging and conceptual support
 
 ---
 
