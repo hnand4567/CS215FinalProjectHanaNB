@@ -51,8 +51,7 @@ Next, exploratory data analysis was conducted using correlation analysis and vis
 
 After this, I applied K-Means clustering to group songs based on similarity in their musical features. To make these clusters easier to interpret visually, I used Principal Component Analysis (PCA) to reduce the dataset into two dimensions.
 
-Finally, the results were visualized and interpreted to understand patterns in music style and popularity.
-
+Finally, the results were visualized using clustering and dimensionality reduction techniques, and interpreted to understand patterns in music style, similarity, and popularity.
 ---
 
 ## New Techniques: K-Means Clustering + Principal Component Analysis (PCA)
@@ -68,7 +67,9 @@ By combining PCA with K-Means clustering, the resulting visualization shows not 
 - No single audio feature strongly determines popularity  
 - Danceability and energy show weak relationships with popularity  
 - Songs naturally cluster into groups with similar musical characteristics  
-- Music preference appears to be multi-dimensional rather than driven by one factor  
+- Music preference appears to be multi-dimensional rather than driven by one factor
+
+Overall, the results suggest that musical popularity is shaped more by combinations of features than any single measurable attribute.
 
 ---
 
