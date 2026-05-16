@@ -85,9 +85,7 @@ A second scatterplot explores the relationship between energy and song popularit
 Visualization 4: Genre Comparison (Average Danceability)
 A bar chart compares average danceability across different genres. This reveals clear stylistic differences between genres, with some genres consistently producing more danceable music than others.
 
-(edit me, insert the image of the bar chart)
-<!-- commenting this out for now, will fix later
-![Genre vs Danceability](assets/correlation_heatmap.png)-->
+![Genre vs Danceability](assets/images/barchart.png)
 
 
 Visualization 5: K-Means Clustering of Songs
