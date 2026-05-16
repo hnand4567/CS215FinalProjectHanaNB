@@ -69,7 +69,7 @@ A correlation heatmap was used to examine relationships between all numerical Sp
 Visualization 2: Popularity vs Danceability Scatterplot
 A scatterplot was used to examine whether more danceable songs tend to be more popular. This visualization shows a weak positive relationship, but with significant variation, suggesting that danceability alone does not strongly determine popularity.
 
-![Popularity vs Danceability Scatterplot](assets/images/popularityDanceability.png)-->
+![Popularity vs Danceability Scatterplot](assets/images/popularityDanceability.png)
 
 
 Visualization 3: Energy vs Popularity Scatterplot (Optional)
