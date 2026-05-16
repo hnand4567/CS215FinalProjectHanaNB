@@ -1,10 +1,10 @@
-# CS215FinalProjectHanaNB
+
 ---
 title: Spotify Audio Features & Song Popularity Analysis
 description: CS215 Final Project
 ---
 
-# Spotify Audio Features & Song Popularity Analysis
+# Spotify Audio Features & Song Popularity Analysis - Hana Nandawula-Bunnya
 
 ## Project Overview
 
