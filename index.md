@@ -63,9 +63,7 @@ This project uses multiple visualizations to explore relationships between Spoti
 Visualization 1: Correlation Heatmap (Audio Features)
 A correlation heatmap was used to examine relationships between all numerical Spotify audio features, such as danceability, energy, tempo, valence, and acousticness. This helped identify which features are most closely related and how strongly they interact with each other.
 
-(edit me, insert the image of the correlation heatmap)
-<!-- commenting this out for now, will fix later
-![Audio Feature Correlation Heatmap](assets/correlation_heatmap.png)-->
+![Audio Feature Correlation Heatmap](assets/images/heatmap.png)
 
 
 Visualization 2: Popularity vs Danceability
