@@ -31,7 +31,8 @@ Source: Spotify audio feature dataset (Kaggle)
 ## Research Questions
 1. Which audio features are most associated with song popularity?  
 2. Do more danceable or energetic songs tend to be more popular?  
-3. How do different genres differ in their musical characteristics?  
+3. How do different genres differ in their musical characteristics?
+4. Can clustering techniques identify natural groupings of songs based on audio features?  
 
 ---
 
