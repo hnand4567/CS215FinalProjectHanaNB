@@ -55,6 +55,7 @@ Next, exploratory data analysis was conducted using correlation analysis and vis
 After this, I applied K-Means clustering to group songs based on similarity in their musical features. To make these clusters easier to interpret visually, I used Principal Component Analysis (PCA) to reduce the dataset into two dimensions.
 
 Finally, the results were visualized using clustering and dimensionality reduction techniques, and interpreted to understand patterns in music style, similarity, and popularity.
+
 ---
 
 ## New Techniques: K-Means Clustering + Principal Component Analysis (PCA)
