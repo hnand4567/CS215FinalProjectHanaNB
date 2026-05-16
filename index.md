@@ -76,7 +76,7 @@ Overall, the results suggest that musical popularity is shaped more by combinati
 
 ---
 
-##Human Interpretation of the Results
+## Human Interpretation of the Results
 From a human perspective, these findings suggest that how we enjoy music is not something that can be reduced to simple numerical rules. People do not choose songs based only on measurable properties like tempo or energy. Instead, music preference is influenced by a combination of emotional tone, cultural context, artist identity, and personal experience, factors that are not fully captured in this dataset.
 
 This helps explain why no single audio feature strongly predicts popularity. A song might become popular because of timing, trends, or emotional resonance rather than just its acoustic properties. In this sense, the data reflects that music is inherently complex and subjective, even when analyzed through quantitative features.
