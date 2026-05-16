@@ -42,8 +42,8 @@ The following data analysis techniques were used:
 
 ---
 
-## New Technique
-K-Means clustering, an unsupervised machine learning method, was used to group songs based on similarities in their audio features, including danceability, energy, valence, tempo, and acousticness. This technique helped reveal natural groupings of songs with similar musical characteristics, allowing for a better understanding of how different styles of music relate to one another within the dataset.
+## New Technique: K-Means Clustering + PCA
+K-Means clustering, an unsupervised machine learning method, was used to group songs based on similarities in their audio features, including danceability, energy, valence, tempo, and acousticness. This technique helped reveal natural groupings of songs with similar musical characteristics, allowing for a better understanding of how different styles of music relate to one another within the dataset. To better interpret the structure of the data, Principal Component Analysis (PCA) was also used to reduce the dimensionality of the audio features. PCA helped simplify the dataset while preserving the most important variation, making it easier to visualize patterns and clusters in lower-dimensional space.
 
 ---
 
