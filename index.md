@@ -93,9 +93,7 @@ A bar chart compares average danceability across different genres. This reveals 
 Visualization 5: K-Means Clustering of Songs
 K-Means clustering, an unsupervised machine learning method, was used to group songs based on similarities in their audio features. This visualization reveals natural clusters of songs with similar musical characteristics, helping uncover structure in the dataset without predefined labels.
 
-(edit me, insert the image of the cluster)
-<!-- commenting this out for now, will fix later
-![K-Means Clustering](assets/correlation_heatmap.png)-->
+![K-Means Clustering](assets/images/KMeansCluster.png)
 
 
 ---
