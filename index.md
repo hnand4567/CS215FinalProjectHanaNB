@@ -77,9 +77,7 @@ A scatterplot was used to examine whether more danceable songs tend to be more p
 Visualization 3: Energy vs Popularity (Optional)
 A second scatterplot explores the relationship between energy and song popularity. The results show a similarly weak relationship, reinforcing the idea that popularity is influenced by multiple factors rather than a single feature.
 
-(edit me, insert the image of the scatterplot)
-<!-- commenting this out for now, will fix later
-![Energy vs Popularity](assets/correlation_heatmap.png)-->
+![Energy vs Popularity Scatterplot](assets/images/popularityEnergyScatterplot.png)
 
 
 Visualization 4: Genre Comparison (Average Danceability)
