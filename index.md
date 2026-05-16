@@ -147,6 +147,4 @@ This project showed that music data is highly multi-dimensional, and simple assu
 ---
 
 ## Future Work
-- Incorporate lyrics analysis (NLP)
-- Explore trends over time more deeply
-- Test additional clustering methods
+In future iterations of this project, I would like to expand the analysis by incorporating geospatial data to explore how music preferences vary across different countries and regions. For example, it would be interesting to examine whether certain audio features or genres are more popular in specific parts of the world and how global listening patterns differ. Additionally, I would like to further explore more advanced clustering and dimensionality reduction techniques to better understand structure in large-scale music datasets. This could help uncover deeper patterns in how musical taste varies across different populations and contexts.
