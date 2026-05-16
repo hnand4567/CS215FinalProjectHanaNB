@@ -91,30 +91,35 @@ The clustering results reinforce this idea by showing that songs naturally group
 This project uses multiple visualizations to explore relationships between Spotify audio features and song popularity.
 
 Visualization 1: Correlation Heatmap (Audio Features)
+
 A correlation heatmap was used to examine relationships between all numerical Spotify audio features, such as danceability, energy, tempo, valence, and acousticness. This helped identify which features are most closely related and how strongly they interact with each other.
 
 ![Audio Feature Correlation Heatmap](assets/images/heatmap.png)
 
 
 Visualization 2: Popularity vs Danceability Scatterplot
+
 A scatterplot was used to examine whether more danceable songs tend to be more popular. This visualization shows a weak positive relationship, but with significant variation, suggesting that danceability alone does not strongly determine popularity.
 
 ![Popularity vs Danceability Scatterplot](assets/images/popularityDanceability.png)
 
 
 Visualization 3: Energy vs Popularity Scatterplot (Optional)
+
 A second scatterplot explores the relationship between energy and song popularity. The results show a similarly weak relationship, reinforcing the idea that popularity is influenced by multiple factors rather than a single feature.
 
 ![Energy vs Popularity Scatterplot](assets/images/popularityEnergyScatterplot.png)
 
 
 Visualization 4: Genre Comparison Bar Chart (Average Danceability)
+
 A bar chart compares average danceability across different genres. This reveals clear stylistic differences between genres, with some genres consistently producing more danceable music than others.
 
 ![Genre vs Danceability](assets/images/barchart.png)
 
 
 Visualization 5: K-Means Clustering 
+
 K-Means clustering was applied to group songs based on similarities in their audio features. This visualization shows clusters using the original feature space, highlighting relationships between variables such as danceability, energy, and tempo.
 
 ![K-Means Clustering](assets/images/KMeansCluster.png)
