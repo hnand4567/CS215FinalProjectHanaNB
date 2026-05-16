@@ -127,12 +127,6 @@ All analysis was completed in a Google Colab notebook, with supporting files sto
 - Dataset used for analysis
 - Images used for visualizations on this page
 
-(edit me)
-<!-- will finish this and edit it
-- `notebook.ipynb` — full analysis
-- `spotify_tracks.csv` — dataset used
--->
-
 ---
 
 ## Reflection
